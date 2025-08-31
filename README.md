@@ -67,7 +67,7 @@ Realization:
 - Writing uses a different password check then [4️⃣ Reading the radio settings](#4%EF%B8%8F⃣-reading-the-radio-settings), but repeated the same patching process  
 - While I made relase v4, Marc discovered that reading a locked radio with Release v3 shows the read password
   - See [📘 How to use final exe](#-how-to-use-final-exe) for Marc’s password extraction method     
-(for us read & write password is `43778`) <br><img width="718" height="152" alt="image" src="https://github.com/user-attachments/assets/40b8b7e6-29db-4406-a089-be6d6e57786d" />
+(for us read & write password was `43778`) <br><img width="718" height="152" alt="image" src="https://github.com/user-attachments/assets/40b8b7e6-29db-4406-a089-be6d6e57786d" />
 - [**Release v4**](https://github.com/JesperKuipers/KPG-202D/releases/tag/exe) accepts any password (or blank) for **both read & write**  
   - Writing default settings to radio removes password 
 
@@ -81,7 +81,8 @@ Realization:
 To use:  
 1. Install official KPG-202D  
 2. Enter a valid license key  
-3. Replace the installed `KPG202D.exe` in `C:\Program Files (x86)\Kenwood Fpu\KPG-202D` with the patched release of your choice  
+3. Replace the installed `KPG202D.exe` in `C:\Program Files (x86)\Kenwood Fpu\KPG-202D` with the patched release of your choice
+> [VirusTotal results](https://www.virustotal.com/gui/file/6b7d32bc713478e32095e2715c44be6da2a6b481da232fbc34822f8fbf4c098a/detection) (score 1/71, its a false postive)  
 
 ---
 
@@ -89,9 +90,10 @@ To use:
 ### A Read & Write
 - With last release you can now **read & write** to any locked Kenwood ProTalk TK-3701D
 - Removing password from the radio (writing default settings to locked radio)
-### B Get Password
-- **Why?** Because people often reuse the same password across multiple radios 🚨 
-- If you want the password use the **Preview Printer trick** (to-do)
+### B Get Read Password
+- **Why?** Because people often reuse the same password across multiple radios or even for read & write 🚨 
+- If you want the password read the radio using my modified exe, then use the print preview feature <br>![find password](https://github.com/user-attachments/assets/cb7e7d73-3c1e-4c50-88b2-b2f82c20aa6e)
+
  
 ---
 
