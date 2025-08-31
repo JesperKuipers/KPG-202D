@@ -25,7 +25,7 @@ What started as a small summer project quickly became a deep dive into reverse e
 
 ### 1️⃣ MCF application & PowerShell
 - Luke discovered the program is an **MCF app** and gave me a few pointers.  
-- Wrote a [PowerShell script](https://github.com/JesperKuipers/KPG-202D/blob/master/Reset_Password-KPG202D.ps1) that opened a hidden feature called **Password reset execution**, but it was password protected  
+- Wrote a [PowerShell script](https://github.com/JesperKuipers/KPG-202D/blob/master/Reset_Password-KPG202D.ps1) that opened a hidden feature called **Password reset execution**, but it was password protected (and is not needed in final exe)  
 
 ---
 
