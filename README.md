@@ -38,7 +38,7 @@ What started as a small summer project quickly became a deep dive into reverse e
 ---
 
 ### 3️⃣ Breaking into the password dialog
-This step alone took ~**100 hours** 😅  
+> This step alone took ~**100 hours** 😅  
 
 - Placed a **breakpoint on `MessageBoxW`**, then entered a wrong password  
 - Stepped out & used the call trace → found the password check code  
