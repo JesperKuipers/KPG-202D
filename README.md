@@ -8,7 +8,7 @@ What started as a small summer project quickly became a deep dive into reverse e
 
 > ⚡ Special thanks to:  
 > - My Lithuanian friend [Luke](https://github.com/DeprecatedLuke) for introducing me to reverse engineering and getting me started  
-> - Peter and Marc for testing and verifying patches  
+> - Peter and Mark for testing and verifying patches  
 
 ---
 
